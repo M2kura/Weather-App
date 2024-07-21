@@ -17,7 +17,7 @@ body {
 main {
     background-color: #a4851ed2;
     position: relative;
-    top: 30%;
+    top: 20%;
     border: 5px ridge;
     border-radius: 5px;
     min-width: 540px;
@@ -59,4 +59,20 @@ h1 {
 #weather-search {
     display: flex;
     width: 50%;
+}
+
+#weather-data {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#weather-data > img {
+    border-radius: 50%;
+    background-color: lightskyblue;
 }
