@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.thenaturaladventure.com/wp-content/uploads/2020/05/czech-republic-czechia-tours.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Manrope', 'Cutive', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    background-color: #a4851ed2;
+    position: relative;
+    top: 30%;
+    border: 5px ridge;
+    border-radius: 5px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#search {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px;
+}
+
+#submit {
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 5em;
+    cursor: pointer;
+    border: outset;
+}
+
+#weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#weather-search {
+    display: flex;
+    width: 50%;
+}
